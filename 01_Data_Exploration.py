@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Load the dataset\ndataset_path = 'Sample - Superstore.csv'\ndf = pd.read_csv(dataset_path)\n\n# Display the first few rows of the dataset\nprint('Sample data:')\nprint(df.head())\n\n# Display summary statistics\nprint('\nSummary statistics:')\nprint(df.describe())\n\n# Display info about the dataset\nprint('\nDataset Info:')\nprint(df.info())
